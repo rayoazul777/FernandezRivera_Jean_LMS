@@ -1,0 +1,80 @@
+/**
+ * Your Name, Your Course, Your Date
+ * Class Name: LibraryManagementSystem
+ * This class serves as the core of the Library Management System, providing functionalities 
+ * like adding, removing, listing books, and saving/loading book data from/to a file.
+ */
+public class LibraryManagementSystem {
+    private HashMap<Integer, String[]> books;
+
+    /**
+     * Method Name: LibraryManagementSystem (Constructor)
+     * Initializes the LibraryManagementSystem object, setting up the internal data structure.
+     * Arguments: None
+     * Return Value: None
+     */
+    public LibraryManagementSystem() {
+        books = new HashMap<>();
+    }
+
+    /**
+     * Method Name: loadFromFile
+     * Reads book data from a given file and populates the internal data structure.
+     * Arguments: filename - Name of the file containing book data
+     * Return Value: None
+     */
+    public void loadFromFile(String filename) throws IOException {
+        // ... (same as before)
+    }
+
+    /**
+     * Method Name: saveToFile
+     * Writes the current book data to a given file.
+     * Arguments: filename - Name of the file to save book data to
+     * Return Value: None
+     */
+    public void saveToFile(String filename) throws IOException {
+        // ... (same as before)
+    }
+
+    /**
+     * Method Name: addBook
+     * Adds a book to the internal data structure.
+     * Arguments: 
+     *   id - Unique identifier for the book
+     *   title - Title of the book
+     *   author - Author of the book
+     * Return Value: None
+     */
+    public void addBook(int id, String title, String author) {
+        // ... (same as before)
+    }
+
+    /**
+     * Method Name: removeBook
+     * Removes a book from the internal data structure.
+     * Arguments: id - Unique identifier for the book to remove
+     * Return Value: None
+     */
+    public void removeBook(int id) {
+        // ... (same as before)
+    }
+
+    /**
+     * Method Name: listBooks
+     * Prints all books currently in the internal data structure.
+     * Arguments: None
+     * Return Value: None
+     */
+    public void listBooks() {
+        // ... (same as before)
+    }
+
+    /**
+     * Main method.
+     * Executes the Library Management System, offering the user options to add, remove, or list books.
+     */
+    public static void main(String[] args) throws IOException {
+        // ... (same as before)
+    }
+}
